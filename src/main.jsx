@@ -47,7 +47,7 @@ function App() {
         <nav className="mx-auto flex max-w-7xl items-center justify-between rounded-2xl border border-white/10 bg-slate-950/70 px-4 py-3 shadow-2xl shadow-black/30 backdrop-blur-xl">
           <a href="#" className="flex items-center gap-2 font-black tracking-tight">
             <span className="grid size-9 place-items-center rounded-xl bg-gradient-to-br from-red-500 to-fuchsia-600 shadow-lg shadow-red-500/20">
-              S
+              N
             </span>
             <span className="hidden text-lg sm:block">NETTFLIX</span>
           </a>
