@@ -1,0 +1,1 @@
+Add your fictional landscape/poster assets here: hero.jpg, movie1.jpg ... movie5.jpg, continue1.jpg ... continue3.jpg.
