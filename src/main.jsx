@@ -14,17 +14,17 @@ import {
 import "./index.css";
 
 const movies = [
-  { id: 1, title: "Shadow Protocol", genre: "Action", year: 2026, image: "/images/movie1.jpg", badge: "98% Match" },
-  { id: 2, title: "Last Horizon", genre: "Sci-Fi", year: 2026, image: "/images/movie2.jpg", badge: "95% Match" },
-  { id: 3, title: "Dark Pursuit", genre: "Thriller", year: 2025, image: "/images/movie3.jpg", badge: "93% Match" },
-  { id: 4, title: "Black Signal", genre: "Drama", year: 2026, image: "/images/movie4.jpg", badge: "91% Match" },
-  { id: 5, title: "Final Target", genre: "Action", year: 2025, image: "/images/movie5.jpg", badge: "89% Match" },
+  { id: 1, title: "Shadow Protocol", genre: "Action", year: 2026, image: "/images/no 1.jpeg", badge: "98% Match" },
+  { id: 2, title: "Last Horizon", genre: "Sci-Fi", year: 2026, image: "/images/no 2.jpeg", badge: "95% Match" },
+  { id: 3, title: "Dark Pursuit", genre: "Thriller", year: 2025, image: "/images/no 3.jpeg", badge: "93% Match" },
+  { id: 4, title: "Black Signal", genre: "Drama", year: 2026, image: "/images/no 4.jpeg", badge: "91% Match" },
+  { id: 5, title: "Final Target", genre: "Action", year: 2025, image: "/images/no 5.jpeg", badge: "89% Match" },
 ];
 
 const continueWatching = [
-  { title: "Midnight Run", progress: 72, image: "/images/continue1.jpg", episode: "S2 · E4" },
-  { title: "Beyond Earth", progress: 43, image: "/images/continue2.jpg", episode: "S1 · E7" },
-  { title: "City of Shadows", progress: 81, image: "/images/continue3.jpg", episode: "S3 · E2" },
+  { title: "Midnight Run", progress: 72, image: "/images/no 7.jpeg", episode: "S2 · E4" },
+  { title: "Beyond Earth", progress: 43, image: "/images/no 8.jpeg", episode: "S1 · E7" },
+  { title: "City of Shadows", progress: 81, image: "/images/no 9.jpeg", episode: "S3 · E2" },
 ];
 
 function App() {
@@ -49,7 +49,7 @@ function App() {
             <span className="grid size-9 place-items-center rounded-xl bg-gradient-to-br from-red-500 to-fuchsia-600 shadow-lg shadow-red-500/20">
               S
             </span>
-            <span className="hidden text-lg sm:block">STREAMFLIX</span>
+            <span className="hidden text-lg sm:block">NETTFLIX</span>
           </a>
 
           <div className="hidden items-center gap-6 text-sm text-slate-300 md:flex">
@@ -80,7 +80,7 @@ function App() {
       </header>
 
       <section id="home" className="relative min-h-[760px] px-4 pt-36 md:px-8">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_75%_35%,rgba(217,70,239,.25),transparent_28%),radial-gradient(circle_at_30%_50%,rgba(239,68,68,.16),transparent_35%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_75%_35%,rgba(244, 54, 20, 0.25),transparent_28%),radial-gradient(circle_at_30%_50%,rgba(239,68,68,.16),transparent_35%)]" />
         <div className="relative mx-auto grid max-w-7xl items-center gap-10 lg:grid-cols-[1.05fr_.95fr]">
           <div className="max-w-2xl">
             <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-fuchsia-400/20 bg-fuchsia-400/10 px-4 py-2 text-xs font-semibold text-fuchsia-200">
@@ -118,12 +118,12 @@ function App() {
           <div className="relative mx-auto w-full max-w-xl">
             <div className="absolute -inset-8 rounded-full bg-fuchsia-500/15 blur-3xl" />
             <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 shadow-2xl shadow-fuchsia-950/30">
-              <img src="/images/hero.jpg" alt="The Hostage" className="aspect-[16/10] w-full object-cover" />
+              <img src="/images/no10.jpeg" alt="The Hostage" className="aspect-[16/10] w-full object-cover" />
               <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-slate-950 via-slate-950/70 to-transparent p-6 pt-24">
                 <div className="flex items-center justify-between">
                   <div>
                     <p className="font-bold">THE HOSTAGE</p>
-                    <p className="text-xs text-slate-400">StreamFlix Original</p>
+                    <p className="text-xs text-slate-400">NETTflix Original</p>
                   </div>
                   <button onClick={() => setPlaying(true)} className="grid size-12 place-items-center rounded-full bg-white text-slate-950">
                     <Play size={18} fill="currentColor" />
